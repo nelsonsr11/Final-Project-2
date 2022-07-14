@@ -1,0 +1,176 @@
+.shoes1 > h1{
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5vw;
+    margin-top: 5vw;
+}
+
+.name-bar{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 45vw;
+    height: 3vw;
+    /* margin: 0 auto; */
+    display: block;
+    margin-top: -3vw ;
+    text-decoration: none;
+    border: 0;
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    background-color: black;
+    opacity: 0.8;
+    resize: none;
+    outline: none;
+    color: white;
+
+}
+.all{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+input.name-bar{
+    font-size: 1.5vw;
+    font-family: 'Inconsolata', monospace; 
+    font-weight: bold;
+    /* color: black; */
+}
+
+.all > button{
+    width: 5vw;
+    height: 3vw;
+    margin-left: 0.5vw;
+    margin-top: -3vw ;
+
+}
+.all > ::placeholder{
+    position: absolute;
+    font-size: 1.6vw;
+    font-family: 'Inconsolata', monospace;    
+    top: 9px;
+    /* color: white; */
+    padding: 0 0.2vw;
+    font-weight: bold;
+}
+
+
+.additional-info{
+    margin-top: -2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+h2{
+    display: flex;
+    justify-content: center;   
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3vw;
+
+}
+
+.color{
+    width: 12vw;
+    height: 2vw;
+    display: block;
+    text-decoration: none;
+    border: 0;
+    background-color: black;
+    opacity: 0.8;
+    resize: none;
+    outline: none;
+    color: white;
+
+}
+
+.brand{
+    width: 12vw;
+    height: 2vw;
+    display: block;
+    text-decoration: none;
+    border: 0;
+    background-color: black;
+    opacity: 0.8;
+    resize: none;
+    outline: none;
+    color: white;
+
+}
+
+.sku{
+    width: 12vw;
+    height: 2vw;
+    display: block;
+    text-decoration: none;
+    border: 0;
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    background-color: black;
+    opacity: 0.8;
+    resize: none;
+    outline: none;
+    color: white;
+    
+}
+
+.additional-info > ::placeholder{
+    position: absolute;
+    font-size: 1vw;
+    font-family: 'Inconsolata', monospace;    
+    top: 8px;
+    color: white;
+    padding: 0 0.2vw;
+    font-weight: bold;
+}
+
+.allshoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0 17vw;
+    width: 10vw;
+    flex-wrap: wrap;
+    margin-top: -8vw;
+    margin-bottom: -15vw;
+
+}
+
+.shoes11{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+    margin-top: -5%;
+}
+
+
+h3{
+    /* text-decoration: none;
+    outline: none; */
+    font-size: 1.8vw;
+
+    margin-left: 2vw;
+    margin-top: -5vw;
+}
+
+.allshoes > a{
+    text-decoration: none;
+    color: black;
+}
+
+.additional-info > ::placeholder{
+    position: absolute;
+    font-size: 1.3vw;
+    top: 5px;
+    color: white;
+    padding: 0 0.2vw;
+    font-weight: bolder;
+}

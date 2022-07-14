@@ -1,0 +1,104 @@
+/* html{
+    color: white;
+    height:100vw;
+    width: 100vw;
+    /* position:absolute; */
+    /* overflow-y: auto;
+    overflow-x: hidden; */
+/* .home > nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    height: 5vw;
+} */
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    height: 5vw;
+    font-weight: bold;
+  }
+  
+  .logo{
+  
+    margin-top: 1%;
+  }
+   .shoes{
+    text-decoration: none;
+    color: white;
+    /* margin-top: 3%;   */
+    /* border: solid white;
+    border-radius: 50vw; */
+    width: 6.5%;
+    display: flex;
+    justify-content: center;
+   }
+  .contact{
+    text-decoration: none;
+    color: white;
+    /* margin-top: 3%;  */
+     /* border: solid white;
+    border-radius: 50vw; */
+    width: 6%;
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  .login{
+    text-decoration: none;
+    color: white;
+    /* margin-top: 3%; */
+    margin-right: 6%;
+    /* border: solid white;
+    border-radius: 50vw; */
+    width: 4.5%;
+    /* display: flex;
+    justify-content: center; */
+  }
+  .home2{
+  
+    text-decoration: none;
+    color: white;
+    /* margin-top: 3%; */
+    margin-left: 6%;  
+    /* border: solid white;
+    border-radius: 50vw; */
+    width: 4%;
+    /* display: flex;
+    justify-content: center; */
+  }
+  
+  .home3{
+    /* font-family: 'Bebas Neue', cursive; */
+    text-align: center;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  overflow: hidden;
+    margin-top:-8%;
+  }
+  
+  .home3 > h1{
+      font-family: 'Bebas Neue', cursive;
+      font-size: 15vw;
+  }
+  
+  .home3 > h3{
+    font-size: 2vw;
+    margin-top: -10%;
+    margin-left: 0;
+  }
+  
