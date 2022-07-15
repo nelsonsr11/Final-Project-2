@@ -147,9 +147,9 @@ h2{
     align-items: center;
     flex-wrap: wrap;
     text-decoration: none;
-    margin-top: -5%;
+    margin-top: 8%;
+    /* width: 10px; */
 }
-
 
 h3{
     /* text-decoration: none;
@@ -163,6 +163,13 @@ h3{
 .allshoes > a{
     text-decoration: none;
     color: black;
+}
+
+.done{
+    width: 20vw;
+    height: 20vw;
+    margin-left: -5px;
+    margin-top: 8vw;
 }
 
 .additional-info > ::placeholder{
@@ -244,6 +251,11 @@ h3{
     
     h3{
         font-size: 2.4vw;
+    }
+    
+    .done{
+        width: 25vw;
+        height: 30vw;
     }
     
 

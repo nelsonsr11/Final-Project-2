@@ -92,7 +92,7 @@ const Shoes = () => {
           return (
             <div className="allshoes">
               <Link to={`/shoes/${brr.id}`}>
-                <img src={brr.image.thumbnail} />
+                <img src={brr.image.thumbnail} className="done" />
                 <h3>{brr.name}</h3>
               </Link>
             </div>
