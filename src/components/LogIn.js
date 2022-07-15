@@ -22,23 +22,27 @@ const LogIn = () => {
     }
   };
   return (
-    <div>
-      <h1>LogIn</h1>
+    <div className="login1">
+      <div className="text1">
+        <h1>Log In</h1>
+      </div>
       <input
+        className="email"
         type="text"
         placeholder="Email"
         onChange={(e) => setUsername(e.target.value)}
       />
       <br />
       <input
+        className="password"
         type="password"
         placeholder="Password"
         onChange={(e) => setPassword(e.target.value)}
       />{" "}
       <br />
       <Link to="/">
-        <button type="submit" onClick={check}>
-          LogIn
+        <button type="submit" class="button22" onClick={check}>
+          LOGIN
         </button>
       </Link>
       <p>{status}</p>

@@ -62,7 +62,7 @@ const Shoes = () => {
             placeholder="Shoe's Name"
             onChange={(e) => setShoesname(e.target.value)}
           />
-          <button>Go</button>
+          <button>Find</button>
         </div>
         <br />
         <h2>FILTERS</h2>

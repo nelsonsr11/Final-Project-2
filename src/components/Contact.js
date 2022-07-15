@@ -1,4 +1,6 @@
 import React from "react";
+import "../components/Contact.css";
+import "../components/Contact.css";
 
 const Contact = () => {
   const [fullnamr, setFullname] = React.useState("");
@@ -18,27 +20,32 @@ const Contact = () => {
     );
   };
   return (
-    <div>
+    <div className="contact11">
       <h1>Contact Us</h1>
-      <form onSubmit={postMessage}>
+      <form className="form1" onSubmit={postMessage}>
+        {/* <div className="input11"> */}
         <input
+          className="fullname"
           type="text"
           placeholder="Full Name"
           onChange={(e) => setFullname(e.target.value)}
         />
-        <br />
         <input
+          className="phone"
           type="text"
           placeholder="Phone Number"
           onChange={(e) => setPhone(e.target.value)}
         />
         <input
+          className="email"
           type="text"
           placeholder="Email"
           onChange={(e) => setEmail(e.target.value)}
         />
-        <br />
-        <button type="submit ">Submit Info</button>
+        {/* </div> */}
+        <button clasName="button2" type="submit ">
+          Submit Info
+        </button>
         <p>{status}</p>
       </form>
     </div>

@@ -101,4 +101,21 @@ nav{
     margin-top: -10%;
     margin-left: 0;
   }
+
+  @media (max-width: 428px){
+
+    .home3 h3{
+        font-size: 3.5vw;
+    }
+    nav{
+        height: 8vh;
+        width: 100vw;
+    }
+    .login{
+        margin-right: 3vh;
+        border: 1px solid white;
+        padding: 2vw 10vw 2vw 3vw ;
+    }
+    
+  }
   

@@ -130,10 +130,9 @@ h2{
 .allshoes{
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
     height: 100vh;
-    margin: 0 17vw;
+    margin: 17vw;
     width: 10vw;
     flex-wrap: wrap;
     margin-top: -8vw;
@@ -173,4 +172,84 @@ h3{
     color: white;
     padding: 0 0.2vw;
     font-weight: bolder;
+}
+
+@media (max-width: 428px){
+    .shoes1 > h1{
+        font-size: 50px;
+    }
+    .name-bar{
+    width: 300px;
+    height: 30px;
+    }
+    input.name-bar{
+        font-size: 15px;
+        font-family: 'Inconsolata', monospace; 
+        font-weight: bold;
+        /* color: black; */
+    }
+    .all > ::placeholder{
+        font-size: 14px;
+    }
+    .all > button{
+        width: 35px;
+        font-size: 10px;
+        color: grey;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 33px;
+        text-decoration: none ;
+        border: solid grey;
+        border: 10px;
+        margin-left: 4px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .color{
+        width: 35vw;
+        height: 5vw;
+    
+    }
+    
+    .brand{
+        width: 35vw;
+        height: 5vw;
+        margin-top: 6vw;
+    
+    }
+    .sku{
+        width: 35vw;
+        height: 5vw;
+        margin-top: 6vw ;
+
+    }
+    
+    .additional-info{
+        flex-direction: column;
+    }
+
+    .additional-info > ::placeholder{
+        font-size: 3vw;   
+        color: grey;
+    }
+
+    .shoes11 > .allshoes{
+        margin-top: 50px ;
+        margin-bottom: -600px 
+
+    }
+
+    
+    h3{
+        font-size: 2.4vw;
+    }
+    
+
+
+
+
+      
+
 }

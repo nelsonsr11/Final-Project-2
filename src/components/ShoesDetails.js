@@ -50,15 +50,17 @@ const ShoesDetails = () => {
 
   console.log("passing", shoes360Index);
   return (
-    <div>
+    <div className="todo">
       <h2 className="pd">Product Details</h2>
       <div className="all12">
         {/* <div className="image"> */}
         {shoes360.length > 1 && (
           <img height="100" src={shoes360[shoes360Index]} />
         )}
-        {shoes360.length > 1 && <button onClick={passing}>lll</button>}
-        {shoes360.length > 1 && <button onClick={passing2}>lll</button>}
+        <div className="button01">
+          {shoes360.length > 1 && <button onClick={passing}>&lt;</button>}
+          {shoes360.length > 1 && <button onClick={passing2}> &gt;</button>}
+        </div>
         <div className="original">
           {shoes360.length < 1 && (
             <img height="100" width="450" src={shoesDet?.image?.original} />
